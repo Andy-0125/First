@@ -6,5 +6,3 @@ def show_user_info():
     print(user_name, user_age, is_student)
 show_user_info()
 print (school_name)
-
-    
