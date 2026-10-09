@@ -17,4 +17,4 @@ while time <= 0:
         print("Number of Periods should be no less than or equal to zero")
         break
 final_amount = principle * pow((1+ rate/100),time)
-print(f"Balance after {time} years is ${final_amount:.2f}.")
+print(f"Balance after {time} year(s) is ${final_amount:.2f}.")
