@@ -1,8 +1,9 @@
 # keyword arguments = arguments prefixed with the names of parameters
 #                                        order of the arguments doesn’t matter
 #                                        helps with readability
+# positional argument should write before keyword argument
 def hello(greeting, title, first, last):
-    print(f"{greeting} {title}{first} {last}")
+    print(f" {title}{greeting}{first} {last}")
 hello("Hello", title = "Mr.",  last = "Squarepants", first = "Spongebob")
 
 for number in range(1,11):
